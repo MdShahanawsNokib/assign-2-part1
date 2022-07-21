@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Rubik+Moonrocks&display=swap');
+
+/* BAnner part  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.parts {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    width: 1300px;
+    border-radius: 20px;
+}
+
+.part-1 {
+    margin-left: 70px;
+}
+
+.part-1 h1 {
+    font-size: 3vw;
+}
+
+.part-1 p {
+    font-size: 1vw;
+}
+
+.part-1 form button {
+    font-size: 2vw;
+    background-color: red;
+    border: 0;
+    padding: 8px;
+}
+
+.part-2 {
+    margin-right: 70px;
+}
+
+.part-2 img {
+    width: 581px;
+    height: 613px;
+}
+
+.parts2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    width: 1300px;
+    margin-bottom: 130px;
+}
+
+.part-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    background-color: black;
+    margin-right: 10px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form1 input {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#input1 {
+    margin: 10px;
+}
+
+#input2 {
+    margin: 10px;
+    background-color: red;
+}
+
+.btn1 {
+    font-size: 20px
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons div {
+    margin-right: 60px;
+}
+
+.container-21 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 10px;
+}
+
+.part-22 {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 444px;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+nav a {
+    text-decoration: none;
+    color: silver;
+    padding: 20px;
+}
+
+.btnlast {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .parts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: aliceblue;
+        width: 600px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .part-2 img {
+        width: 381px;
+        height: 313px;
+        padding-left: 150px;
+    }
+    .container-2 {
+        flex-direction: column;
+    }
+    .part-21 {
+        background-color: rgb(241, 240, 240);
+        margin-right: 10px;
+        height: 240px;
+        border-radius: 20px;
+        border: 0;
+        margin-bottom: 40px;
+    }
+    .container-21 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        text-align: center;
+    }
+    .blog-img {
+        width: 70%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .parts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+    .part-1 {
+        padding-left: 250px;
+    }
+    .part-2 img {
+        width: 381px;
+        height: 313px;
+        padding-left: 30px;
+    }
+    .container-2 {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 900px;
+    }
+    .form1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+    }
+    .part-21 {
+        background-color: white;
+        border: 0;
+        font-size: 20px;
+    }
+    .form1 input {
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .container-21 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        text-align: center;
+    }
+    .blog-img {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .last {
+        display: none;
+    }
+}
