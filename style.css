@@ -199,6 +199,9 @@ nav a {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    #blog-img {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
@@ -265,5 +268,14 @@ nav a {
     }
     .last {
         display: none;
+    }
+    .btnlast {
+        visibility: visible;
+        font-size: 20px;
+        background-color: red;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 40px;
     }
 }
